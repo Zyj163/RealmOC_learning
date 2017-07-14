@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BD0CEEE8905913424B3318B /* libPods-RealmOC_learning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C88018C5D661117E45F41260 /* libPods-RealmOC_learning.a */; };
+		4FA89F8C55322223D7C66B07 /* libPods-RealmOC_learningTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98962AD76300A93C80B853E5 /* libPods-RealmOC_learningTests.a */; };
+		57159A441F186FBB00AC8D8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57159A431F186FBB00AC8D8A /* main.m */; };
+		57159A471F186FBB00AC8D8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57159A461F186FBB00AC8D8A /* AppDelegate.m */; };
+		57159A4A1F186FBB00AC8D8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57159A491F186FBB00AC8D8A /* ViewController.m */; };
+		57159A4D1F186FBB00AC8D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57159A4B1F186FBB00AC8D8A /* Main.storyboard */; };
+		57159A4F1F186FBB00AC8D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57159A4E1F186FBB00AC8D8A /* Assets.xcassets */; };
+		57159A521F186FBB00AC8D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57159A501F186FBB00AC8D8A /* LaunchScreen.storyboard */; };
+		57159A5B1F188C3D00AC8D8A /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57159A5A1F188C3D00AC8D8A /* TestModel.m */; };
+		57159A631F188CE300AC8D8A /* RealmOC_learningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57159A621F188CE300AC8D8A /* RealmOC_learningTests.m */; };
+		57159A6B1F188D3E00AC8D8A /* BaseUseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57159A6A1F188D3E00AC8D8A /* BaseUseTests.m */; };
+		57159A6E1F189B7100AC8D8A /* TestSubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57159A6D1F189B7100AC8D8A /* TestSubModel.m */; };
+		57159A701F18AF6500AC8D8A /* ConfigRealm.m in Sources */ = {isa = PBXBuildFile; fileRef = 57159A6F1F18AF6500AC8D8A /* ConfigRealm.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57159A651F188CE300AC8D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57159A371F186FBB00AC8D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57159A3E1F186FBB00AC8D8A;
+			remoteInfo = RealmOC_learning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24603DA4CCC5D8C82DDB153F /* Pods-RealmOC_learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmOC_learning.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmOC_learning/Pods-RealmOC_learning.release.xcconfig"; sourceTree = "<group>"; };
+		30100FAFF64B684D979C2E88 /* Pods-RealmOC_learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmOC_learning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmOC_learning/Pods-RealmOC_learning.debug.xcconfig"; sourceTree = "<group>"; };
+		57159A3F1F186FBB00AC8D8A /* RealmOC_learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmOC_learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57159A431F186FBB00AC8D8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57159A451F186FBB00AC8D8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57159A461F186FBB00AC8D8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57159A481F186FBB00AC8D8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57159A491F186FBB00AC8D8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		57159A4C1F186FBB00AC8D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57159A4E1F186FBB00AC8D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57159A511F186FBB00AC8D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57159A531F186FBB00AC8D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57159A591F188C3D00AC8D8A /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		57159A5A1F188C3D00AC8D8A /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		57159A601F188CE300AC8D8A /* RealmOC_learningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmOC_learningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57159A621F188CE300AC8D8A /* RealmOC_learningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmOC_learningTests.m; sourceTree = "<group>"; };
+		57159A641F188CE300AC8D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57159A6A1F188D3E00AC8D8A /* BaseUseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUseTests.m; sourceTree = "<group>"; };
+		57159A6C1F189B7100AC8D8A /* TestSubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSubModel.h; sourceTree = "<group>"; };
+		57159A6D1F189B7100AC8D8A /* TestSubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSubModel.m; sourceTree = "<group>"; };
+		57159A6F1F18AF6500AC8D8A /* ConfigRealm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigRealm.m; sourceTree = "<group>"; };
+		98962AD76300A93C80B853E5 /* libPods-RealmOC_learningTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealmOC_learningTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7B4AF9425CE829FD431091 /* Pods-RealmOC_learningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmOC_learningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmOC_learningTests/Pods-RealmOC_learningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4546652843567BB97B7A49 /* Pods-RealmOC_learningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmOC_learningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmOC_learningTests/Pods-RealmOC_learningTests.release.xcconfig"; sourceTree = "<group>"; };
+		C88018C5D661117E45F41260 /* libPods-RealmOC_learning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealmOC_learning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57159A3C1F186FBB00AC8D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD0CEEE8905913424B3318B /* libPods-RealmOC_learning.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57159A5D1F188CE300AC8D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA89F8C55322223D7C66B07 /* libPods-RealmOC_learningTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57159A361F186FBB00AC8D8A = {
+			isa = PBXGroup;
+			children = (
+				57159A411F186FBB00AC8D8A /* RealmOC_learning */,
+				57159A611F188CE300AC8D8A /* RealmOC_learningTests */,
+				57159A401F186FBB00AC8D8A /* Products */,
+				5D0F9A6D37AF8B8324227256 /* Pods */,
+				85E22232CD3A962938A324BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57159A401F186FBB00AC8D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57159A3F1F186FBB00AC8D8A /* RealmOC_learning.app */,
+				57159A601F188CE300AC8D8A /* RealmOC_learningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57159A411F186FBB00AC8D8A /* RealmOC_learning */ = {
+			isa = PBXGroup;
+			children = (
+				57159A451F186FBB00AC8D8A /* AppDelegate.h */,
+				57159A461F186FBB00AC8D8A /* AppDelegate.m */,
+				57159A481F186FBB00AC8D8A /* ViewController.h */,
+				57159A491F186FBB00AC8D8A /* ViewController.m */,
+				57159A591F188C3D00AC8D8A /* TestModel.h */,
+				57159A5A1F188C3D00AC8D8A /* TestModel.m */,
+				57159A6C1F189B7100AC8D8A /* TestSubModel.h */,
+				57159A6D1F189B7100AC8D8A /* TestSubModel.m */,
+				57159A4B1F186FBB00AC8D8A /* Main.storyboard */,
+				57159A4E1F186FBB00AC8D8A /* Assets.xcassets */,
+				57159A501F186FBB00AC8D8A /* LaunchScreen.storyboard */,
+				57159A531F186FBB00AC8D8A /* Info.plist */,
+				57159A421F186FBB00AC8D8A /* Supporting Files */,
+			);
+			path = RealmOC_learning;
+			sourceTree = "<group>";
+		};
+		57159A421F186FBB00AC8D8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57159A431F186FBB00AC8D8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57159A611F188CE300AC8D8A /* RealmOC_learningTests */ = {
+			isa = PBXGroup;
+			children = (
+				57159A621F188CE300AC8D8A /* RealmOC_learningTests.m */,
+				57159A6A1F188D3E00AC8D8A /* BaseUseTests.m */,
+				57159A6F1F18AF6500AC8D8A /* ConfigRealm.m */,
+				57159A641F188CE300AC8D8A /* Info.plist */,
+			);
+			path = RealmOC_learningTests;
+			sourceTree = "<group>";
+		};
+		5D0F9A6D37AF8B8324227256 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30100FAFF64B684D979C2E88 /* Pods-RealmOC_learning.debug.xcconfig */,
+				24603DA4CCC5D8C82DDB153F /* Pods-RealmOC_learning.release.xcconfig */,
+				9B7B4AF9425CE829FD431091 /* Pods-RealmOC_learningTests.debug.xcconfig */,
+				9C4546652843567BB97B7A49 /* Pods-RealmOC_learningTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85E22232CD3A962938A324BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88018C5D661117E45F41260 /* libPods-RealmOC_learning.a */,
+				98962AD76300A93C80B853E5 /* libPods-RealmOC_learningTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57159A3E1F186FBB00AC8D8A /* RealmOC_learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57159A561F186FBB00AC8D8A /* Build configuration list for PBXNativeTarget "RealmOC_learning" */;
+			buildPhases = (
+				1D46C51F6F196AF9AEA5F3BB /* [CP] Check Pods Manifest.lock */,
+				57159A3B1F186FBB00AC8D8A /* Sources */,
+				57159A3C1F186FBB00AC8D8A /* Frameworks */,
+				57159A3D1F186FBB00AC8D8A /* Resources */,
+				0BAA3DB4EA4F06A35B9DC17D /* [CP] Embed Pods Frameworks */,
+				688387AEC8EC8E6B4A7E221D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealmOC_learning;
+			productName = RealmOC_learning;
+			productReference = 57159A3F1F186FBB00AC8D8A /* RealmOC_learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57159A5F1F188CE300AC8D8A /* RealmOC_learningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57159A671F188CE300AC8D8A /* Build configuration list for PBXNativeTarget "RealmOC_learningTests" */;
+			buildPhases = (
+				E24A04086AB03CF2AA7F06A2 /* [CP] Check Pods Manifest.lock */,
+				57159A5C1F188CE300AC8D8A /* Sources */,
+				57159A5D1F188CE300AC8D8A /* Frameworks */,
+				57159A5E1F188CE300AC8D8A /* Resources */,
+				6774336C86CAF0FC16D8B60A /* [CP] Embed Pods Frameworks */,
+				9285C19B5309DB7FC38D918A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57159A661F188CE300AC8D8A /* PBXTargetDependency */,
+			);
+			name = RealmOC_learningTests;
+			productName = RealmOC_learningTests;
+			productReference = 57159A601F188CE300AC8D8A /* RealmOC_learningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57159A371F186FBB00AC8D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "张永俊";
+				TargetAttributes = {
+					57159A3E1F186FBB00AC8D8A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Manual;
+					};
+					57159A5F1F188CE300AC8D8A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K7Y6C8JUH6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57159A3E1F186FBB00AC8D8A;
+					};
+				};
+			};
+			buildConfigurationList = 57159A3A1F186FBB00AC8D8A /* Build configuration list for PBXProject "RealmOC_learning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57159A361F186FBB00AC8D8A;
+			productRefGroup = 57159A401F186FBB00AC8D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57159A3E1F186FBB00AC8D8A /* RealmOC_learning */,
+				57159A5F1F188CE300AC8D8A /* RealmOC_learningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57159A3D1F186FBB00AC8D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57159A521F186FBB00AC8D8A /* LaunchScreen.storyboard in Resources */,
+				57159A4F1F186FBB00AC8D8A /* Assets.xcassets in Resources */,
+				57159A4D1F186FBB00AC8D8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57159A5E1F188CE300AC8D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BAA3DB4EA4F06A35B9DC17D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmOC_learning/Pods-RealmOC_learning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D46C51F6F196AF9AEA5F3BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6774336C86CAF0FC16D8B60A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmOC_learningTests/Pods-RealmOC_learningTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		688387AEC8EC8E6B4A7E221D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmOC_learning/Pods-RealmOC_learning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9285C19B5309DB7FC38D918A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmOC_learningTests/Pods-RealmOC_learningTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24A04086AB03CF2AA7F06A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57159A3B1F186FBB00AC8D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57159A4A1F186FBB00AC8D8A /* ViewController.m in Sources */,
+				57159A471F186FBB00AC8D8A /* AppDelegate.m in Sources */,
+				57159A441F186FBB00AC8D8A /* main.m in Sources */,
+				57159A5B1F188C3D00AC8D8A /* TestModel.m in Sources */,
+				57159A6E1F189B7100AC8D8A /* TestSubModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57159A5C1F188CE300AC8D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57159A6B1F188D3E00AC8D8A /* BaseUseTests.m in Sources */,
+				57159A631F188CE300AC8D8A /* RealmOC_learningTests.m in Sources */,
+				57159A701F18AF6500AC8D8A /* ConfigRealm.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57159A661F188CE300AC8D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57159A3E1F186FBB00AC8D8A /* RealmOC_learning */;
+			targetProxy = 57159A651F188CE300AC8D8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57159A4B1F186FBB00AC8D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57159A4C1F186FBB00AC8D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57159A501F186FBB00AC8D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57159A511F186FBB00AC8D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57159A541F186FBB00AC8D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57159A551F186FBB00AC8D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57159A571F186FBB00AC8D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30100FAFF64B684D979C2E88 /* Pods-RealmOC_learning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RealmOC_learning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyj.RealmOC-learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		57159A581F186FBB00AC8D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24603DA4CCC5D8C82DDB153F /* Pods-RealmOC_learning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RealmOC_learning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyj.RealmOC-learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		57159A681F188CE300AC8D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7B4AF9425CE829FD431091 /* Pods-RealmOC_learningTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K7Y6C8JUH6;
+				INFOPLIST_FILE = RealmOC_learningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyj.RealmOC-learningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmOC_learning.app/RealmOC_learning";
+			};
+			name = Debug;
+		};
+		57159A691F188CE300AC8D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4546652843567BB97B7A49 /* Pods-RealmOC_learningTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = K7Y6C8JUH6;
+				INFOPLIST_FILE = RealmOC_learningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zyj.RealmOC-learningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealmOC_learning.app/RealmOC_learning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57159A3A1F186FBB00AC8D8A /* Build configuration list for PBXProject "RealmOC_learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57159A541F186FBB00AC8D8A /* Debug */,
+				57159A551F186FBB00AC8D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57159A561F186FBB00AC8D8A /* Build configuration list for PBXNativeTarget "RealmOC_learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57159A571F186FBB00AC8D8A /* Debug */,
+				57159A581F186FBB00AC8D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57159A671F188CE300AC8D8A /* Build configuration list for PBXNativeTarget "RealmOC_learningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57159A681F188CE300AC8D8A /* Debug */,
+				57159A691F188CE300AC8D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57159A371F186FBB00AC8D8A /* Project object */;
+}
